@@ -190,4 +190,14 @@ header h2 {
     .hero p {
         font-size: 1.3rem;
     }
+
+    .instagram {
+        width: 80%;
+        margin: 0 5px;
+    }
+    
+    .home {
+        width: 80%;
+        margin: 0 5px;
+    }
 }
