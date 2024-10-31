@@ -251,4 +251,7 @@ header h1 {
     .hero p {
         font-size: 1.3rem;
     }
+
+    section {
+        flex-direction: column;
 }
