@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #2b2d31;
+    background-color: white;
 }
 
 @keyframes slide {
@@ -24,7 +24,7 @@ body {
 .logos {
     overflow: hidden;
     padding-bottom: 30px;
-    background: #2b2d31;
+    background: white;
     white-space: nowrap;
     position: relative;
 }
@@ -48,14 +48,16 @@ a {
 header {
     text-align: center;
     padding: 20px;
-    background-color: #1e1f22;
+    background-color:#014a6b;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5)
 }
 
 header h1 {
     margin: 0;
     font-size: 3rem;
     color: white;
-    display: inline-block
+    display: inline-block;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 header h2 {
@@ -63,6 +65,7 @@ header h2 {
     font-size: 2rem;
     margin: 0;
     display: inline-block;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .instagram {
@@ -87,7 +90,6 @@ header h2 {
 
 .hero {
     background-image: url('https://i.ibb.co/M98GwNb/1689582183807.jpg'); 
-    filter: grayscale(100%) url('https://i.ibb.co/M98GwNb/1689582183807.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -98,10 +100,7 @@ header h2 {
     margin: 0 auto;
     border-radius: 8px;
     margin-top: 20px;
-}
-
-img {
-    filter: grayscale(100%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5)
 }
 
 .hero:before {
@@ -126,11 +125,13 @@ img {
     font-size: 3rem;
     margin: 0;
     color: #ffffff;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .hero p {
     font-size: 1.5rem;
     margin-top: 10px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .info-section {
@@ -138,17 +139,18 @@ img {
     justify-content: space-evenly;
     align-items: center;
     padding: 40px 20px;
-    background-color: #2b2d31;
+    background-color: white;
 }
 
 .info-box {
-    background-color: #1e1f22;
+    background-color: #014a6b;
     padding: 20px;
     width: 30%;
     text-align: center;
     box-shadow: white;
     border-radius: 8px;
     transition: transform 0.3s ease-in-out;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5)
 }
 
 .info-box:hover {
@@ -158,11 +160,13 @@ img {
 .info-box h3 {
     font-size: 1.8rem;
     margin-bottom: 10px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .info-box p {
     font-size: 1.1rem;
     color: white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 @media only screen and (max-width: 768px) {
