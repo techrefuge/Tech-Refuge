@@ -3,41 +3,48 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #2b2d31;
+    background-color: white;
 }
 
 a {
     color: white;
     text-decoration: none;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 h2 {
     color: white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 h3 {
     color: white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 p {
     color: white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 h4 {
     color: white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 header {
     text-align: center;
     padding: 20px;
-    background-color: #1e1f22;
+    background-color:#014a6b;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 header h1 {
     margin: 0;
     font-size: 3rem;
     color: white;
-    display: inline-block
+    display: inline-block;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .instagram {
@@ -81,7 +88,7 @@ header h1 {
 .hero h2 {
     font-size: 3rem;
     margin: 0;
-    color: #ffffff;
+    color: white;
 }
 
 .hero p {
@@ -94,11 +101,12 @@ header h1 {
     justify-content: space-evenly;
     align-items: center;
     padding: 40px 20px;
-    background-color: #2b2d31;
+    background-color:white;
 }
 
 .info-box1 {
-    background-color: #1e1f22;
+    background-color:#014a6b;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     padding: 20px;
     width: 30%;
     text-align: center;
@@ -106,12 +114,13 @@ header h1 {
     border-radius: 8px;
     transition: transform 0.3s ease-in-out;
     position: absolute;
-    top: 240px;
-    left: 160px;
+    top: 40%;
+    left: 15%;
 }
 
 .info-box2 {
-    background-color: #1e1f22;
+    background-color:#014a6b;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     padding: 20px;
     width: 30%;
     text-align: center;
@@ -119,12 +128,13 @@ header h1 {
     border-radius: 8px;
     transition: transform 0.3s ease-in-out;
     position: absolute;
-    top: 240px;
-    right: 160px;
+    top: 40%;
+    right: 15%;
 }
 
 .info-box3 {
-    background-color: #1e1f22;
+    background-color:#014a6b;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     padding: 20px;
     width: 30%;
     text-align: center;
@@ -132,12 +142,13 @@ header h1 {
     border-radius: 8px;
     transition: transform 0.3s ease-in-out;
     position: absolute;
-    top: 540px;
-    left: 160px;
+    top: 100%;
+    left: 15%;
 }
 
 .info-box4 {
-    background-color: #1e1f22;
+    background-color:#014a6b;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     padding: 20px;
     width: 30%;
     text-align: center;
@@ -145,12 +156,13 @@ header h1 {
     border-radius: 8px;
     transition: transform 0.3s ease-in-out;
     position: absolute;
-    top: 540px;
-    right: 160px;
+    top: 100%;
+    right: 15%;
 }
 
 .info-box5 {
-    background-color: #1e1f22;
+    background-color:#014a6b;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     padding: 20px;
     width: 30%;
     text-align: center;
@@ -158,12 +170,27 @@ header h1 {
     border-radius: 8px;
     transition: transform 0.3s ease-in-out;
     position: absolute;
-    top: 840px;
-    left: 160px;
+    top: 140%;
+    left: 15%;
 }
 
 .info-box6 {
-    background-color: #1e1f22;
+    background-color:#014a6b;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    box-shadow: white;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+    position: absolute;
+    top: 140%;
+    right: 15%;
+}
+
+.info-box7 {
+    background-color:#014a6b;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     padding: 5px;
     width: 20%;
     text-align: center;
@@ -171,8 +198,22 @@ header h1 {
     border-radius: 8px;
     transition: transform 0.3s ease-in-out;
     position: absolute;
-    top: 120px;
-    left: 600px;
+    top: 20%;
+    left: 39%;
+}
+
+.info-box8 {
+    background-color:#014a6b;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    width: 20%;
+    text-align: center;
+    box-shadow: white;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+    position: absolute;
+    top: 80%;
+    left: 39%;
 }
 
 .info-box:hover {
